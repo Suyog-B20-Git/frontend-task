@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* body{
+    background-color: aquamarine;
+} */
+
+nav{
+    /* background-color: greenyellow; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 15px lightblue;
+}
+
+.nav-tools > ul{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.enquire-btn > button {
+    /* background-color: brown; */
+    background: rgb(214,185,32);
+    background: linear-gradient(90deg, rgba(214,185,32,1) 0%, rgba(128,194,32,1) 49%, rgba(0,212,255,1) 100%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+select{
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: gray;
+    background: transparent;
+    /* background-color: none; */
+}
+
+select:hover{
+    color: blue;
+}
+
+li:hover{
+    color: blue;
+}
+
+/* ------------ */
+
+main {
+    /* background-color: red; */
+    padding: 50px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px lightblue;
+    border-radius: 15px;
+    background: lightgray;
+    box-shadow:  2px 2px 50px #bdbdbd,
+             -22px -22px 53px #ffffff;
+}
+
+.input-container {
+    /* background-color: yellow; */
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    /* font-weight: 500; */
+    font-size: 20px;
+    gap: 5px
+}
+
+input{
+    height: 30px;
+}
+
+.btn-container {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container > button {
+    font-size: larger;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    background-color: aquamarine;
+}
